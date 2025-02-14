@@ -60,7 +60,7 @@ Using STS/IntelliJ:
 * click run
 
 5. API Endpoints
- Create New Training Center 
+ 1. Create New Training Center 
 * Method : POST
 * URL: /training-center
 * Request Body (JSON Example):
@@ -104,7 +104,7 @@ Using STS/IntelliJ:
     ]
  }
 ```
-Get All Training Centers
+2.Get All Training Centers
 * Method : GET
 * URL : /training-center/all
 * Response Example:
