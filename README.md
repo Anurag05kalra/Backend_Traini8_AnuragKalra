@@ -21,7 +21,7 @@ This project is an MVP for a Government-Funded Training Center Registry that all
 
 ## Setup Instructions
 1. Prerequisites
-  Ensure you have the following installed:
+   Ensure you have the following installed:
   * Java JDK 19
   * Spring Tool Suite (STS) or IntelliJ IDEA
   * MySQL Server
