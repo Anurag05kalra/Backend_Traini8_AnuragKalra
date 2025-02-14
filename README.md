@@ -1,4 +1,4 @@
-# Traini8-govt-training-center
+# Backend_Traini8_AnuragKalra
 
 ## Project Overview
 This project is an MVP for a Government-Funded Training Center Registry that allows users to register training centers with details such as name, address, courses offered, and contact information. It is built using Spring Boot, Spring Data JPA, and MySQL.
