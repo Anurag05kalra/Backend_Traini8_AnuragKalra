@@ -55,17 +55,17 @@ This project is an MVP for a Government-Funded Training Center Registry that all
   mvn clean install
   mvn spring-boot:run
  ```
-Using STS/IntelliJ:
-* open the Project
-* Navigate to MvpApplication.java
-* click run
+  Using STS/IntelliJ:
+   * open the Project
+   * Navigate to MvpApplication.java
+   * click run
 
 5. API Endpoints  
    Create New Training Center
  
-* Method : POST
-* URL: /training-center
-* Request Body (JSON Example):
+ * Method : POST
+ * URL: /training-center
+ * Request Body (JSON Example):
  ```
   {
     "centerName": "Code Masters Academy",
@@ -106,10 +106,10 @@ Using STS/IntelliJ:
     ]
  }
 ```
- Get All Training Centers
-* Method : GET
-* URL : /training-center/all
-* Response Example:
+  Get All Training Centers
+  * Method : GET
+  * URL : /training-center/all
+  * Response Example:
  ```
   [
     {
