@@ -20,8 +20,9 @@ This project is an MVP for a Government-Funded Training Center Registry that all
  * Postman : API Testing 
 
 ## Setup Instructions
-1. Prerequisites
+1. Prerequisites  
    Ensure you have the following installed:
+
   * Java JDK 19
   * Spring Tool Suite (STS) or IntelliJ IDEA
   * MySQL Server
@@ -59,8 +60,9 @@ Using STS/IntelliJ:
 * Navigate to MvpApplication.java
 * click run
 
-5. API Endpoints
- 1. Create New Training Center 
+5. API Endpoints  
+   Create New Training Center
+ 
 * Method : POST
 * URL: /training-center
 * Request Body (JSON Example):
@@ -104,7 +106,7 @@ Using STS/IntelliJ:
     ]
  }
 ```
-2.Get All Training Centers
+ Get All Training Centers
 * Method : GET
 * URL : /training-center/all
 * Response Example:
