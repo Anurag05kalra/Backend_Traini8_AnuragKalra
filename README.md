@@ -38,7 +38,7 @@ This project is an MVP for a Government-Funded Training Center Registry that all
   CREATE DATABASE traini8;
   ```
 * Update application.properties file inside src/main/resources/:
-  ```
+ ```
   spring.application.name=MVP
   spring.datasource.url=jdbc:mysql://localhost:3306/traini8?serverTimezone=UTC
   spring.datasource.username=root
@@ -50,10 +50,10 @@ This project is an MVP for a Government-Funded Training Center Registry that all
   server.port=8084
  ```
 4. Build & Run the Application
+  ```
+  mvn clean install
+  mvn spring-boot:run
  ```
- mvn clean install
- mvn spring-boot:run
-```
 Using STS/IntelliJ:
 * open the Project
 * Navigate to MvpApplication.java
@@ -79,7 +79,7 @@ Using STS/IntelliJ:
     "coursesOffered": ["Java", "Spring Boot", "Microservices"],
     "contactEmail": "contact@codemasters.com",
     "contactPhone": "9876543210"
-}
+ }
 ```
 * Response Example:
 ```
@@ -102,14 +102,14 @@ Using STS/IntelliJ:
         "Spring Boot",
         "Microservices"
     ]
-}
+ }
 ```
 Get All Training Centers
 * Method : GET
 * URL : /training-center/all
 * Response Example:
  ```
- [
+  [
     {
         "id": 1,
         "centerName": "ABC Training Center",
@@ -208,9 +208,9 @@ Get All Training Centers
             "Java",
             "Spring Boot",
             "Microservices"
-        ]
-    }
-]
+         ]
+     }
+   ]
  ```
 
 
